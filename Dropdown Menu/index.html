@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="content">
+        <div class="img">
+          <img
+            src="https://avatars.githubusercontent.com/u/92796091?s=400&u=22ae351a543033bd31e06c5c1e74d3f79183e28a&v=4"
+            alt="Pic of me"
+          />
+        </div>
+        <h2>Famey Me<br /><span>Computer Engineer</span></h2>
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="#">
+            <ion-icon name="person-outline"></ion-icon>Edit Profile</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            Inbox</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="settings-outline"></ion-icon>
+            Settings</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="add-circle-outline"></ion-icon>
+            Support</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="log-out-outline"></ion-icon>
+            Logout</a
+          >
+        </li>
+      </ul>
+
+      <div class="toggle">
+        <ion-icon name="chevron-down-outline"></ion-icon>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      const card = document.querySelector(".card");
+      const cardtoggle = document.querySelector(".toggle");
+
+      cardtoggle.onclick = function () {
+        card.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
