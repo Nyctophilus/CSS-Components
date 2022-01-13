@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Blob using SVG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+   <section class="flex-center">
+     <div class="blob">
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(254, 0, 242);"></stop>
+            <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#gradient)">
+          <animate attributeName="d" dur= " 10000ms" repeatCount="indefinite"
+          values="
+          M418.5,294.5Q404,339,379.5,385.5Q355,432,302.5,458.5Q250,485,198.5,457Q147,429,91,401.5Q35,374,22,312Q9,250,30,192.5Q51,135,88.5,85.5Q126,36,188,55.5Q250,75,294.5,85.5Q339,96,381,123Q423,150,428,200Q433,250,418.5,294.5Z;
+          
+          M417,294.5Q403,339,375,378.5Q347,418,298.5,429.5Q250,441,203.5,426.5Q157,412,119.5,379.5Q82,347,75.5,298.5Q69,250,62,193.5Q55,137,98.5,100Q142,63,196,39Q250,15,294.5,56Q339,97,399,113Q459,129,445,189.5Q431,250,417,294.5Z;
+                    
+          M418.5,294.5Q404,339,379.5,385.5Q355,432,302.5,458.5Q250,485,198.5,457Q147,429,91,401.5Q35,374,22,312Q9,250,30,192.5Q51,135,88.5,85.5Q126,36,188,55.5Q250,75,294.5,85.5Q339,96,381,123Q423,150,428,200Q433,250,418.5,294.5Z"
+          >
+            
+          </animate>
+        </path>
+      </svg>
+     </div>
+
+     <!-- Glow -->
+     <div class="blob">
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(254, 0, 242);"></stop>
+            <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#gradient)">
+          <animate attributeName="d" dur= " 10000ms" repeatCount="indefinite"
+          values="
+          M418.5,294.5Q404,339,379.5,385.5Q355,432,302.5,458.5Q250,485,198.5,457Q147,429,91,401.5Q35,374,22,312Q9,250,30,192.5Q51,135,88.5,85.5Q126,36,188,55.5Q250,75,294.5,85.5Q339,96,381,123Q423,150,428,200Q433,250,418.5,294.5Z;
+          
+          M417,294.5Q403,339,375,378.5Q347,418,298.5,429.5Q250,441,203.5,426.5Q157,412,119.5,379.5Q82,347,75.5,298.5Q69,250,62,193.5Q55,137,98.5,100Q142,63,196,39Q250,15,294.5,56Q339,97,399,113Q459,129,445,189.5Q431,250,417,294.5Z;
+                    
+          M418.5,294.5Q404,339,379.5,385.5Q355,432,302.5,458.5Q250,485,198.5,457Q147,429,91,401.5Q35,374,22,312Q9,250,30,192.5Q51,135,88.5,85.5Q126,36,188,55.5Q250,75,294.5,85.5Q339,96,381,123Q423,150,428,200Q433,250,418.5,294.5Z"
+          >
+            
+          </animate>
+        </path>
+      </svg>
+     </div>
+
+   </section>
+    </div>
+
+  </body>
+</html>
