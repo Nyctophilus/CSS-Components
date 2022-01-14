@@ -3,9 +3,14 @@
   padding: 0;
   margin: 0;
 }
+html {
+  height: 100%;
+}
 body {
   font-family: consolas;
-  background: url(https://wallpapercave.com/wp/wp2771916.jpg);
+  background-image: url(https://wallpapercave.com/wp/wp2771916.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fill {
   margin: 15% auto;
