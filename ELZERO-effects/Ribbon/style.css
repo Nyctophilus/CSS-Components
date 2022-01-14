@@ -52,8 +52,6 @@ body {
   line-height: 1.6;
 }
 
-----
-
 /* the top one right */
 .product h2::after {
   border-color: transparent transparent transparent #027167;
