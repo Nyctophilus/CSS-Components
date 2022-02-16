@@ -121,3 +121,32 @@ main .box .text ul li {
 }
 main .box .text p {
 }
+.icon-whatsapp:before {
+  content: "\e900";
+  color: #25d366;
+}
+
+/* footer */
+footer {
+  background-color: var(--light-bg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+  height: 56px;
+  padding-right: 50px;
+  padding-bottom: 8px;
+  flex-direction: column;
+}
+
+footer .cont {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer p {
+  font-size: 20px;
+}
+footer .cont span {
+  font-size: 30px;
+}
